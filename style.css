@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+}
+
+#input-el {
+    border: 2px solid plum;
+    font-size:medium;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+button {
+    background-color: plum;
+    font-family: inherit;
+    font-weight: bolder;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 1.5px;
+}
+
+#delete-btn {
+    background-color: white;
+    border: 2px solid plum;
+}
+
+#delete-btn:hover {
+    background-color: plum;
+}
+
+button:hover {
+    color: white;
+}
+
+#leads {
+    color: purple;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+#leads li {
+    margin-left: 10px;
+}
